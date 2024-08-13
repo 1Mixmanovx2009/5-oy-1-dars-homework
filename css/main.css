@@ -1,0 +1,140 @@
+/* -------------------Header style---------------------- */
+
+*{
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    text-decoration: none;
+    box-sizing: border-box;
+}
+
+.container {
+    max-width: 1280px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+.site-header{
+    margin-bottom: 106px;
+    padding:28px 0;
+    border-radius: 16px;
+    box-shadow: 0px 48px 96px 0px #423E790F;
+}
+
+.header__logo-navbar-btn-wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.navbar__list {
+    display: flex;
+    align-items: center;
+    gap: 44px;
+}
+
+.navbar__link {
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 24px;
+    font-family: "Inter", sans-serif;
+    letter-spacing: 0.14000000059604645px;
+    color: #535479;
+}
+
+.navbar__btn-wrapper {
+    display: flex;
+    gap: 32px;
+}
+
+.navbar__login-btn {
+    font-family: "Inter", sans-serif;
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0.14000000059604645px;
+    text-align: left;
+}
+
+.navbar__btn {
+    padding: 7px 24px;
+    border-radius: 20px;
+    border: none;
+    color: #fff;
+    background: #0E0B3D;
+}
+
+/* ------------------end style-------------- */
+
+/* -----------------Hero style-------------- */
+
+.hero__title-wrapper {
+    width: 1280px;
+}
+
+.hero__text-top {
+    text-align: center;
+    margin-bottom: 12px;
+    font-family: "Inter", sans-serif;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 24px;
+    letter-spacing: 0.2800000011920929px;    
+    color: #1463FF;
+}
+
+.hero__title {
+    width: 800px;
+    text-align: center;
+    margin-bottom: 14px;
+    margin: auto;
+    font-family: "Inter", sans-serif;
+    font-size: 54px;
+    font-weight: 400;
+    line-height: 72px;
+    letter-spacing: 2.559999942779541px;
+    color: #0E0B3D;
+}
+
+.hero__text-bottom {
+    width: 655px;
+    text-align: center;
+    margin: auto;
+    margin-bottom: 80px;
+    font-family: "Inter", sans-serif;
+    font-size: 17px;
+    font-weight: 400;
+    line-height: 36px;
+    letter-spacing: 0.18000000715255737px;
+}
+
+.hero__button {
+    padding: 12px 32px;
+    margin-left: 550px;
+    margin-bottom: 291px;
+    border-radius: 20px;
+    border: none;
+    color: #fff;
+    background: #0E0B3D;
+}
+
+/* ------------------end style-------------- */
+
+/* -----------------Footer style-------------- */
+
+.footer__titles-wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 24px;
+    background-color: #F7F9FC;
+}
+
+.footer__center-left-text {
+    padding-right: 31px;
+}
+
+.footer__images-wrapper {
+    display: flex;
+    gap: 24px;
+}
