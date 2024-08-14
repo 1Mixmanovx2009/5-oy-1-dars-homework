@@ -110,7 +110,7 @@
 
 .hero__button {
     padding: 12px 32px;
-    margin-left: 550px;
+    margin-left: 570px;
     margin-bottom: 291px;
     border-radius: 20px;
     border: none;
@@ -124,17 +124,49 @@
 
 .footer__titles-wrapper {
     display: flex;
-    justify-content: space-between;
-    align-items: center;
+    align-items: center;  
     padding: 24px;
+    border-radius: 12px;
     background-color: #F7F9FC;
+}
+
+.footer__left-text {
+    padding-right: 310px;
+    font-family: "Inter", sans-serif;
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0.14000000059604645px;
+    color: #535479;
 }
 
 .footer__center-left-text {
     padding-right: 31px;
+    font-family: "Inter", sans-serif;
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0.14000000059604645px;
+    color: #535479;
+}
+
+.footer__center-right-text {
+    padding-right: 299px;
+    font-family: "Inter", sans-serif;
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 24px;
+    cursor: pointer;
+    letter-spacing: 0.14000000059604645px;
+    color: #535479;
 }
 
 .footer__images-wrapper {
     display: flex;
     gap: 24px;
+}
+
+.elTwiter {
+    cursor: pointer;
+    cursor: pointer;
 }

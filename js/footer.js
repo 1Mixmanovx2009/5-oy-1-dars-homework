@@ -29,8 +29,8 @@ elFacebook.classList.add("footer__facebook-img")
 elGithub.classList.add("footer__github-img")
 
 elFooterLeftText.textContent = "formcarry. all rights reserved"
-elFooterCenterLeftText = "Terms of Service"
-elFooterCenterRightText = "Privacy Policy"
+elFooterCenterLeftText.textContent = "Terms of Service"
+elFooterCenterRightText.textContent = "Privacy Policy"
 elTwiter.href = "/"
 elFacebook.href = "/"
 elGithub.href = "/"
